@@ -8,9 +8,85 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="header"></div>
-    
-    <div id="hola">www</div>
+   <header class="header">
+       <nav id="nav" class="nav">
+           <div class="nav-left-wrapper">
+                <a class="logo-icon" href="index.html">
+                    <img class="logo-icon" src="images/netflix.png">
+                </a>
+                <!--
+                <form class="searchBar">
+                    <imput type="text" id="searchImput" class="searchImput"/>
+                    <button type="submit" class="searchButtom"></button>
+                </form>
+                -->
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="">Novedades</a></li>
+                    <li class="nav-item"><a href="">Series</a></li>
+                    <li class="nav-item"><a href="">Péliculas</a></li>
+                    <li class="nav-item"><a href="">Favoritos</a></li>
+                </ul>
+           </div>
+           <div class="nav-right-wrapper">
+                <div class="search">
+                    <img class="search-icon" src="../images/search.png"/>
+                    <form class="search-bar">
+                        <input type="text" id="search-input" class="search-input"/>
+                        <!--<button type="submit" class="search-buttom"></button>-->
+                    </form>
+                </div>
+                <div class="user">
+                    <img class="search-icon" src="images/user.png"/>
+                </div>
+           </div>
+
+       </nav>
+   </header>
+   <main class="main-page">
+       <section id="main-trailer">
+           <!--mete autoplay loop-->
+        <video  id="video-trailer">
+            <source src="videos/trailer.mp4" type="video/mp4">
+          </video>
+
+       </section>
+       <section class="movies">
+        <ul class="carousel-list">
+            <li class="carousel-item">
+                <a href="">
+                    <img class="movie-img" src="images/movies/thrones.jpg"/>
+                </a>
+            </li>
+            <li class="carousel-item">
+                <a href="">
+                    <img class="movie-img" src="images/movies/thrones.jpg"/>
+                </a>
+            </li>
+            <li class="carousel-item">
+                <a href="">
+                    <img class="movie-img" src="images/movies/thrones.jpg"/>
+                </a>
+            </li>
+            <li class="carousel-item">
+                <a href="">
+                    <img class="movie-img" src="images/movies/thrones.jpg"/>
+                </a>
+            </li>
+            <li class="carousel-item">
+                <a href="">
+                    <img class="movie-img" src="images/movies/thrones.jpg"/>
+                </a>
+            </li>
+            <li class="carousel-item">
+                <a href="">
+                    <img class="movie-img" src="images/movies/thrones.jpg"/>
+                </a>
+            </li>
+
+        </ul>
+       </section>
+
+   </main>
 
 </body>
 </html>

@@ -22,7 +22,13 @@ body
 
 /*elementos media, responsive*/
 img,
-video,
+video
 {
     max-width: 100%;
+}
+
+/*Listas*/
+ul
+{
+    list-style: none;
 }
