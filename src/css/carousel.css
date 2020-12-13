@@ -9,7 +9,7 @@
     height: 100%;
 }
 
-.movies
+.carousel
 {
     background-color: green;
 
@@ -34,7 +34,7 @@
     background-color: wheat;
     
     position: relative;
-    left: -500px;
+   /* left: -500px;*/
     
     
 }
@@ -57,7 +57,7 @@
     margin-right: 15px;
 }
 
-.movie-img
+.carousel-img
 {
     height: 180px;
     width: 320px;
